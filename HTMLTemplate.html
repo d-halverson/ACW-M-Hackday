@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+     Drew Halverson
+     
+
+     A short description of the project goes here
+-->
+<html lang="en">
+<head>
+  <title>Title</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <script src="script.js"></script>
+
+  <style>
+  #title
+  {
+      text-align: center;
+      font-size: 3em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  #dropdown
+  {
+    font-size: 1.5em;
+  }
+  *
+  {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  }
+  body
+  {
+  font-family: "Times New Roman", serif;
+  font-size: 16pt;
+  }
+  </style>
+</head>
+<body>
+<div id="title">UMN Menstruator Product Tracking</div>
+<center>
+<div></div>
+<select id="dropdown" onchange="displayInfo()"></select>
+<div id="infoHeader"></div>
+<div id="info"></div>
+</center>
+</body>
+</html>
